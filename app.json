@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/skill/skill",
+    "pages/project/project"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0080ff",
+    "navigationBarTitleText": "山楂汉堡的简介",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#0080ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "基本信息",
+        "iconPath": "/images/tab/info0.png",
+        "selectedIconPath": "/images/tab/info1.png"
+      },
+      {
+        "pagePath": "pages/skill/skill",
+        "text": "专业技能",
+        "iconPath": "/images/tab/skill0.png",
+        "selectedIconPath": "/images/tab/skill1.png"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "项目经验",
+        "iconPath": "/images/tab/project0.png",
+        "selectedIconPath": "/images/tab/project1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
