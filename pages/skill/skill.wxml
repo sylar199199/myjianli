@@ -1,2 +1,13 @@
-<!--pages/skill/skill.wxml-->
-<text>pages/skill/skill.wxml</text>
+<!-- 专业节能 -->
+<view class="padding">
+  <view class="padding-sm radius shadow bg-white flex align-center">
+    <image class="cu-avatar lg bg-white" src="/images/icon/ide.png"></image>
+    <view class="margin-left-sm">
+      <text class="text-bold text-lg text-black">开发工具</text>
+      <view>Intellij Webstorm,Intellij IDEA,H-Builder </view>
+    </view>
+  </view>
+  <view class="padding-sm radius shadow bg-white flex align-center margin-top-sm">
+    
+  </view>
+</view>

@@ -44,5 +44,27 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  // 添加个人微信
+  addWechat() {
+    wx.previewImage({
+      urls: ['https://upload-images.jianshu.io/upload_images/13144757-1c8240b5ba4e514b.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1056/format/webp'] // 需要预览的图片http链接列表
+    })
+  },
+  // 拨打电话
+  call() {
+    wx.makePhoneCall({
+      phoneNumber: '18243015787'
+    })
+  },
+  //保存到通讯录
+  saveContact(e) {
+    wx.addPhoneContact({
+      firstName: '白洋',
+      mobilePhoneNumber: '18243015787',
+      remark: '前端开发工程师',
+      phoneNumber: '18243015787',
+      weChatNumber: '295022808'
+    })
+  },
 })

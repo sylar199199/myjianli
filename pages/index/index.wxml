@@ -1,19 +1,65 @@
 <view class="padding">
- <view class="padding-xl radius shadow bg-white margin-top">
-   <view class="flex  justify-center">
-     <image class="cu-avatar xl round" src="/images/avatar.png">
-     </image>
-   </view>
-   <view class="flex  justify-center margin-top">
-     <text class="text-black text-bold">白洋</text>
+  <!-- 个人信息 -->
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <view class="flex  justify-center">
+      <image class="cu-avatar xl round" src="/images/avatar.png">
+      </image>
     </view>
-    <view class="flex  justify-center margin-top-sm">
-     <text class="text-black">期望岗位： 前端开发工程师</text>
+    <view class="flex  justify-center margin-top">
+      <text class="text-black text-bold">白洋</text>
     </view>
-    <view class="flex justify-between margin-top-sm">
-     <text class="text-black">性别：男</text>
-     <text class="text-black">年龄：30</text>
-     <text class="text-black">10年工作经验</text>
+    <view class="flex  justify-center margin-top">
+      <text class="text-black">期望岗位： 前端开发工程师</text>
     </view>
- </view>
+    <view class="flex justify-center margin-top-sm">
+      <text class="text-black">性别：男</text>
+      <text class="text-black margin-left-sm">年龄：30</text>
+      <text class="text-black margin-left-sm">10年工作经验</text>
+    </view>
+    <view class="flex  justify-around margin-top-sm">
+      <view bindtap="addWechat">
+        <text class="text-xl text-blue cuIcon-weixin"></text>
+        <text class="margin-left-xs">添加微信</text>
+      </view>
+      <view bindtap="call">
+        <text class="text-xl text-blue cuIcon-phone"></text>
+        <text class="margin-left-xs">拨打电话</text>
+      </view> 
+      <view bindtap="saveContact">
+        <text class="text-xl text-blue cuIcon-addressbook"></text>
+        <text class="margin-left-xs">保存到通讯录</text>
+      </view>
+    </view>
+  </view> 
+  <!-- 教育背景 -->
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <view class="flex justify-center">
+      <text class="cuIcon-medalfill text-xxl text-blue"></text>
+    </view>
+    <view class="edu edube margin-top text-center text-bold"></view>
+    <view class="flex margin-top align-center">
+      <text class="cuIcon-time"></text>
+      <text class="margin-left">2011-2015</text>
+    </view>
+    <view class="flex margin-top align-center">
+      <text class="cuIcon-home"></text>
+      <text class="margin-left">吉林建筑大学</text>
+    </view>
+    <view class="flex margin-top align-center">
+      <text class="cuIcon-attentionfill"></text>
+      <text class="margin-left">土木工程专业 </text>
+    </view>
+  </view>
+  <!-- 自我评价 -->
+  <view class="padding-xl radius shadow bg-white margin-top">
+    <view class="flex justify-center">
+      <text class="cuIcon-appreciate text-xxl text-blue"></text>
+    </view>
+    <view class="edu pingjia margin-top text-center text-bold"></view>
+    <view class="padding-sm margin-top-sm">
+      本人具有良好的编程技巧和编码风格，熟悉网站制作，coocs creator游戏开发；工作认真负责，积极主动，能吃苦耐劳，
+      抗压能力极强，能够适应加班；有较强的组织能力和团队协作精神；具有较强的适应能力；纪律性强，工作积极配合；有较强的学习能力
+      和接受新事物的能力；具有一定的审美观。
+    </view>
+  </view>
 </view>
